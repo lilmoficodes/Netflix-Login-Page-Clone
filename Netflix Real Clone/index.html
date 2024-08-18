@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India &ndash; Watch TV Shows Online, Watch Movies Shows Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="footerstyle.css">
+    <link rel="shortcut icon" href="Icon/netflix favicon.svg" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="backgroundImage">
+            <nav>
+                <div class="logoLanguageButtonSignUpButtonContainer">
+                    <div class="logoContainer">
+                        <img class="logo" src="Icon/Netflix-Logo.wine.svg" alt="Netflix" />
+                    </div>
+                    <div class="LanguageButtonSignUpButton">
+                        <div class="LanguageSelectorButtonContainer">
+                            <div class="LogoForlanguageSelection">
+                                <img src="Icon/languageShort.svg" alt="">
+                            </div>
+                            <select id="LanguageSelectorButton" name="LanguageSelect" data-uia="language-picker-header">
+                                <option lang="en" label="English" value="en-IN" selected="">
+                                    English
+                                </option>
+                                <option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option>
+                            </select>
+                        </div>
+                        <button id="signInButton">Sign In</button>
+                    </div>
+                </div>
+            </nav>
+            <div class="heroContentContainer">
+                <div class="heroContent">
+                    <p class="boldText">Unlimited movies, TV shows and more</p>
+                    <p class="subBoldtext">Watch anywhere. Cancel anytime.</p>
+                    <p class="subBoldtext">
+                        Ready to watch? Enter your email to create or restart your
+                        membership.
+                    </p>
+                    <div class="email-signup">
+                        <input class="emailInput" placeholder="Email address" type="email" name="Email" id="email"
+                            required />
+                        <button class="submit-btn" type="submit">Get Started
+                            <img id="Arrowright" src="Icon/arrrow right.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seperator"></div>
+    </header>
+    <main>
+        <div class="mainContainer">
+            <div class="TextContainer">
+                <h3 class="boldText">Enjoy on your TV</h3>
+                <p class="subBoldtext">
+                    Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+                    players and more
+                </p>
+            </div>
+            <div class="ChildImageVideoContainer">
+                <div class="FirstImageContainer">
+                    <img class="tvImage" src="Images/tv.png" alt="tv" />
+                </div>
+                <div class="FirstVideoContainer">
+                    <video class="video1" src="videos/netflixtvvideo.m4v " autoplay loop muted playsinline></video>
+                </div>
+            </div>
+        </div>
+        <div class="seperator">
+
+        </div>
+        <!-- 2nd content -->
+        <div class="mainContainer">
+            <div class="ChildImageVideoContainer">
+                <div class="FirstImageContainer">
+                    <img class="tvImage" src="Images/mobile.jpg" alt="tv" />
+                    <div class="AboveMobileTextContainer">
+                        <div class="AboveMobileText">
+                            <img class="boxshot" src="Images/boxshot.png" alt="Stranger Things">
+                            <div class="AboveMobileTextStrangerThingsContainer">
+                                <p id="StrangerThingsText">Stranger Things</p>
+                                <p id="StrangerThingsDownload">Downloading...</p>
+                            </div>
+                            <img class="download-icon" src="Images/download-icon.gif" alt="download-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="FirstVideoContainer">
+                    <video style="display: none;" class="video1" src="videos/netflixtvvideo.m4v " autoplay loop muted
+                        playsinline></video>
+                </div>
+            </div>
+            <div class="TextContainer">
+                <h3 class="boldText">Download your shows to watch offline</h3>
+                <p class="subBoldtext">
+                    Save your favourites easily and always have something to watch.
+                </p>
+            </div>
+        </div>
+        <div class="seperator">
+
+        </div>
+        <!-- 3rd content -->
+        <div class="mainContainer">
+            <div class="TextContainer">
+                <h3 class="boldText">Watch everywhere</h3>
+                <p class="subBoldtext">
+                    Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.
+                </p>
+            </div>
+            <div class="ChildImageVideoContainer">
+                <div class="FirstImageContainer">
+                    <img class="tvImage" src="Images/device-pile-in.png" alt="tv" />
+                </div>
+                <div class="FirstVideoContainer" id="PunjabiVideoContainer">
+                    <video id="PunjabiVideo" class="video1" src="videos/video-devices-in.m4v " autoplay loop muted
+                        playsinline></video>
+                </div>
+            </div>
+        </div>
+        <div class="seperator">
+
+        </div>
+        <!-- 4th content -->
+        <div class="mainContainer">
+            <div class="ChildImageVideoContainer">
+                <div class="FirstImageContainer">
+                    <img class="tvImage" src="Images/netflix children image.png" alt="tv" />
+                </div>
+                <div class="FirstVideoContainer">
+                    <video style="display: none;" class="video1" src="videos/netflixtvvideo.m4v " autoplay loop muted
+                        playsinline></video>
+                </div>
+            </div>
+            <div class="TextContainer">
+                <h3 class="boldText">Create profiles for kids</h3>
+                <p class="subBoldtext">
+                    Send children on adventures with their favourite characters in a space made just for them—free
+                    with your membership.
+                </p>
+            </div>
+        </div>
+        <div class="seperator">
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="Faq">
+            <h3 class="boldText">Frequently Asked Questions</h3>
+        </div>
+        <div class="FaqQuestionSection">
+            <div class="FaqQuestions subBoldtext" id="firstQuestion">
+                <p class="FaqTextPosition">What is Netflix?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+            <div class="FaqQuestions subBoldtext" id="secondQuestion">
+                <p class="FaqTextPosition">How much does Netflix Cost?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+            <div class="FaqQuestions subBoldtext" id="ThirdQuestion">
+                <p class="FaqTextPosition">Where can i watch?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+            <div class="FaqQuestions subBoldtext" id="FourthQuestion">
+                <p class="FaqTextPosition">How do i cancel?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+            <div class="FaqQuestions subBoldtext" id="FifthQuestion">
+                <p class="FaqTextPosition">What can i watch on Netflix?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+            <div class="FaqQuestions subBoldtext" id="SixthQuestion">
+                <p class="FaqTextPosition">is Netflix good for kids?</p>
+                <img class="plusIconFaq" src="Icon/plusIcon.svg" alt="plusIcon">
+            </div>
+        </div>
+        <div class="EmailTopText">
+            <p class="subBoldtext">
+                Ready to watch? Enter your email to create or restart your
+                membership.
+            </p>
+        </div>
+        <div class="FooterEmail">
+            <div class="email-signup">
+                <input class="emailInput" placeholder="Email address" type="email" name="Email" id="email" required />
+                <button class="submit-btn" type="submit">Get Started
+                    <img id="Arrowright" src="Icon/arrrow right.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="seperator"></div>
+        <div class="callNetflix">
+            <p>Questions? Call <a href="#">000-800-919-1694</a></p>
+        </div>
+        <div class="FooterEndingPart">
+            <a href="#">FAQ</a>
+            <a href="#"> Help Centre</a>
+            <a href="#"> Account</a>
+            <a href="#">
+                Media Centre</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Jobs</a>
+            <a href="#">
+                Ways to Watch</a>
+            <a href="#">
+                Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">
+                Cookie Preferences</a>
+            <a href="#">
+                Corporate Information</a>
+            <a href="#">
+                Contact Us</a>
+            <a href="#">Speed Test</a>
+            <a href="#">
+                Legal Notices</a>
+            <a href="#">
+                Only on Netflix</a>
+        </div>
+
+        <div class="footmark">
+            <div class="LanguageSelectorButtonContainer">
+                <div class="LogoForlanguageSelection">
+                    <img src="Icon/languageShort.svg" alt="">
+                </div>
+                <select id="LanguageSelectorButton" name="LanguageSelect" data-uia="language-picker-header">
+                    <option lang="en" label="English" value="en-IN" selected="">
+                        English
+                    </option>
+                    <option lang="hi" label="हिन्दी" value="hi-IN">हिन्दी</option>
+                </select>
+            </div>
+            <div class="subBoldtext">Netflix India</div>
+        </div>
+    </footer>
+</body>
+
+</html>

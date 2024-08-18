@@ -1,0 +1,12 @@
+.footmark{
+    height: 20vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.footmark .subBoldtext{
+font-size: 1rem;
+color: rgba(255, 255, 255, 0.6);
+}
