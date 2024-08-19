@@ -4,10 +4,15 @@
     color: #fff;
 }
 
+:root {
+    --transition-value: 0.2s;
+}
+
 body {
     background-color: #000;
     height: 100%;
 }
+
 .boldText {
     font-family: 'Segoe UI';
     font-weight: 900;
@@ -71,10 +76,11 @@ body {
     cursor: pointer;
 }
 
-#Arrowright{
+#Arrowright {
     position: relative;
     top: 4%;
 }
+
 header {
     height: 95vh;
 }
@@ -90,9 +96,11 @@ nav {
     background-size: cover;
     height: 100%;
 }
-.heroContent{
+
+.heroContent {
     text-align: center;
 }
+
 .logoLanguageButtonSignUpButtonContainer {
     display: flex;
     justify-content: space-between;
@@ -120,16 +128,18 @@ option {
 
 .LanguageSelectorButtonContainer {
     display: flex;
-    gap: 2px; /* Adjust spacing as needed */
+    gap: 2px;
+    /* Adjust spacing as needed */
     background-color: rgba(0, 0, 0, 0.4);
     height: 2rem;
     width: 6rem;
-    border: 1px solid rgba(255,255,255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
 }
 
 .LogoForlanguageSelection img {
-    width: 20px; /* Adjust size as needed */
+    width: 20px;
+    /* Adjust size as needed */
     position: relative;
     top: 10%;
     left: 10%;
@@ -184,44 +194,51 @@ option {
     height: 9px;
     width: 100%;
     background-color: #2d2c2c;
-    
+
 }
 
-.mainContainer{
+.mainContainer {
     height: 70vh;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
 }
-.TextContainer{
-    width:  40%;
+
+.TextContainer {
+    width: 40%;
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
+
 /* Most important and hardest part of entire life */
-.ChildImageVideoContainer{
+.ChildImageVideoContainer {
     z-index: -1;
 
 }
-.FirstImageContainer{
+
+.FirstImageContainer {
     position: absolute;
 }
-.tvImage{
+
+.tvImage {
     height: 400px;
 }
-.FirstVideoContainer{
+
+.FirstVideoContainer {
     width: 531px;
     height: 400px;
 }
-#PunjabiVideo{
-    height:190px;
+
+#PunjabiVideo {
+    height: 190px;
     position: relative;
     top: 30px;
 }
-.video1{
+
+.video1 {
     height: 400px;
     width: 400px;
     position: relative;
@@ -229,13 +246,15 @@ option {
     bottom: 10px;
     z-index: -2;
 }
+
 .emailInput::placeholder {
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Helvetica';
     font-size: 1.06rem;
-    
+
 }
-.AboveMobileTextContainer{
+
+.AboveMobileTextContainer {
     height: 100px;
     width: auto;
     display: flex;
@@ -245,10 +264,11 @@ option {
     bottom: 8.5rem;
 
 }
-.AboveMobileText{
+
+.AboveMobileText {
     height: 100px;
     width: 310px;
-    background-color:#000;
+    background-color: #000;
     border: 2px solid rgba(171, 170, 170, 0.5);
     border-radius: 15px;
     position: relative;
@@ -258,43 +278,43 @@ option {
     align-items: center;
     font-family: 'Helvetica';
     font-weight: 500;
-    font-size: 1.1rem;   
+    font-size: 1.1rem;
     outline: none;
     overflow: hidden;
 }
-.AboveMobileTextStrangerThingsContainer{
+
+.AboveMobileTextStrangerThingsContainer {
     flex-direction: column;
 }
-#StrangerThingsDownload{
-color: blue;
-font-size: 14px;
+
+#StrangerThingsDownload {
+    color: blue;
+    font-size: 14px;
 }
-.boxshot{
+
+.boxshot {
     height: 85px;
 }
-.download-icon{
+
+.download-icon {
     height: 60px;
 }
 
-footer{
-    height: 100vh;
+footer {
+  height: 100vh;
 }
-.Faq{
+
+.Faq {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.FaqQuestionSection{
-    display: grid;
-    grid-template-columns: none;
-    grid-template-rows: repeat(6,1fr);
-    gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.FaqQuestions{
+
+
+
+.FaqQuestions {
     height: 90px;
     width: 80%;
     font-size: 1.6rem;
@@ -305,16 +325,19 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.FaqQuestions .plusIconFaq{
+
+.FaqQuestions .plusIconFaq {
     height: 2.5rem;
     position: relative;
     right: 15px;
 }
-.FaqTextPosition{
+
+.FaqTextPosition {
     position: relative;
     left: 15px;
 }
-.EmailTopText{
+
+.EmailTopText {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -322,28 +345,33 @@ footer{
     margin-bottom: 20px;
     text-align: center;
 }
-.FooterEmail{
+
+.FooterEmail {
     padding-bottom: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.FooterEmail .emailInput{
-width: 30%;
+
+.FooterEmail .emailInput {
+    width: 30%;
 }
-.FooterEndingPart{
+
+.FooterEndingPart {
     display: grid;
     height: 40vh;
     width: 100%;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     align-items: center;
     font-family: 'Helvetica';
 }
-.FooterEndingPart a{
+
+.FooterEndingPart a {
     color: rgba(255, 255, 255, 0.6);
 }
-.callNetflix{
+
+.callNetflix {
     font-family: 'Helvetica';
     font-size: 14px;
     width: 100%;
@@ -351,30 +379,96 @@ width: 30%;
     display: flex;
     align-items: flex-end;
 }
-.callNetflix p{
-    color:rgba(255, 255, 255, 0.6);
+
+.callNetflix p {
+    color: rgba(255, 255, 255, 0.6);
 
 }
-.callNetflix a{
-    color:rgba(255, 255, 255, 0.6);
+
+.callNetflix a {
+    color: rgba(255, 255, 255, 0.6);
 }
-.footmark{
+
+.footmark {
     height: 20vh;
-    width: 100%;
+    width: 90%;
+    position: relative;
+    left: 1%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
 }
-.footmark .subBoldtext{
-font-size: 1rem;
-color: rgba(255, 255, 255, 0.6);
+
+.footmark .subBoldtext {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ToggleThePlusIcon {
+    transform: rotate(-45deg);
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon1 {
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon2 {
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon3 {
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon4 {
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon5 {
+    transition: transform var(--transition-value) ease-in;
+}
+
+#plusIcon6 {
+    transition: transform var(--transition-value) ease-in;
+}
+.FaqQuestionSection {
+    display: grid;
+    grid-template-columns: none;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.FaqAnswersContainer{
+    height: auto;
+    width: 79%;
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    z-index: -10;
+    transform: translateY(-100%);
+    display: none;
+    scale: 0;
+    transition: transform var(--transition-value) ease-in, scale var(--transition-value) ease-in;
+    background-color: #333;
+}
+.ToggleTheAnswerContainer{
+    transform: translateY(0%);
+    transition: transform var(--transition-value) ease-in, scale var(--transition-value) ease-in;
+    scale: 1;
+    display: inline-block;
+}
+.FaqAnswer{
+font-family: 'Helvetica';
+font-size: 1.5rem;
 }
 @media screen and (min-width: 0px) and (max-width: 1010px) {
     .logo {
         width: 5.5625rem;
         height: 1.5rem;
- }
+    }
+
     .backgroundImage {
         background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(Images/netflixbgImage.jpg);
         background-position: center;
@@ -387,59 +481,67 @@ color: rgba(255, 255, 255, 0.6);
         font-size: 2rem;
     }
 
-   .subBoldtext {
+    .subBoldtext {
         font-size: 1.125rem;
     }
-    .FaqTextPosition{
+
+    .FaqTextPosition {
         font-size: 1.5rem;
-     }
-     .FaqQuestions .plusIconFaq{
+    }
+
+    .FaqQuestions .plusIconFaq {
         height: 2rem;
         position: relative;
         right: 15px;
     }
-   
+
 }
-@media screen and (min-width: 550px)and (max-width: 920px)
-{
+
+@media screen and (min-width: 550px)and (max-width: 920px) {
+
     /* this is making vertical and horizontal alignment */
-    .mainContainer{
+    .mainContainer {
         height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
     }
-    .FaqQuestions{
-     font-size: 1.125rem;
+
+    .FaqQuestions {
+        font-size: 1.125rem;
 
     }
-    .FaqQuestions .plusIconFaq{
+
+    .FaqQuestions .plusIconFaq {
         height: 2rem;
         position: relative;
         right: 15px;
     }
-    .TextContainer{
-     width: 100%;
-     height: 10%;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     position: absolute;
-     top: 30px;
+
+    .TextContainer {
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 30px;
 
     }
-    .tvImage{
+
+    .tvImage {
         height: 300px;
     }
 
-    #PunjabiVideo{
-        height:140px;
+    #PunjabiVideo {
+        height: 140px;
         position: relative;
         top: 80px;
 
     }
-    .video1{
+
+    .video1 {
         height: 300px;
         width: 300px;
         position: relative;
@@ -448,52 +550,62 @@ color: rgba(255, 255, 255, 0.6);
         bottom: 3px;
         z-index: -2;
     }
-    .ChildImageVideoContainer{
+
+    .ChildImageVideoContainer {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .AboveMobileTextContainer{
+
+    .AboveMobileTextContainer {
         position: relative;
         bottom: 6.9rem;
     }
-    .AboveMobileText{
+
+    .AboveMobileText {
         height: 75px;
         width: 250px;
-        background-color:#000;
+        background-color: #000;
         border: 2px solid rgba(171, 170, 170, 0.5);
         border-radius: 12px;
     }
-    .boxshot{
+
+    .boxshot {
         height: 60px;
     }
-    .download-icon{
+
+    .download-icon {
         height: 50px;
     }
-    .Faq{
+
+    .Faq {
         font-size: 2rem;
         font-weight: 700;
     }
-    .FooterEmail .submit-btn{
+
+    .FooterEmail .submit-btn {
         width: 200px;
         height: 100%;
         text-align: center;
         font-size: 20px;
         border-radius: 5px;
     }
-    .FooterEmail #Arrowright{
+
+    .FooterEmail #Arrowright {
         top: 10%;
     }
-    .FooterEmail .emailInput{
-        width: 50%;
-     }
 
-    .callNetflix{
+    .FooterEmail .emailInput {
+        width: 50%;
+    }
+
+    .callNetflix {
         justify-content: center;
         align-items: center;
     }
-    .FooterEndingPart{
+
+    .FooterEndingPart {
         justify-items: center;
         align-items: center;
         text-align: center;
@@ -501,105 +613,128 @@ color: rgba(255, 255, 255, 0.6);
     }
 }
 
-@media screen and (min-width: 320px)  and (max-width:550px ){
-    .logoLanguageButtonSignUpButtonContainer{
+@media screen and (min-width: 320px) and (max-width:550px) {
+    .logoLanguageButtonSignUpButtonContainer {
         width: 90%;
     }
-    .mainContainer{
+
+    .mainContainer {
         height: 100vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         position: relative;
     }
-    .FaqTextPosition{
+
+    .FaqTextPosition {
         font-size: 1.2rem;
     }
-    #PunjabiVideo{
+
+    #PunjabiVideo {
         height: 90px;
         position: relative;
         top: 120px;
     }
- .video1{
-    height: 180px;
-    width: 190px;
-    position: relative;
-    top: 100px;
-    left: 70px;
-    bottom: 3px;
-    z-index: -2;
-} 
-.TextContainer{
-    width: 100%;
-    height: 30%;
- justify-content: center;
- align-items: center;
- text-align: center;
- position: absolute;
- top: 0;
-}
-.tvImage{
-    height: 200px;
-}
-.FirstVideoContainer{
-    width: 330px;
-    height: 400px;
-   
-}
-.ChildImageVideoContainer{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.AboveMobileTextContainer{
-    position: relative;
-    bottom: 6rem;
-}
-.AboveMobileText{
-    height: 60px;
-    width: 210px;
-    background-color:#000;
-    border: 2px solid rgba(171, 170, 170, 0.5);
-    border-radius: 12px;
-}
-#StrangerThingsDownload{
-    font-size: 12px;
-}
-#StrangerThingsText{
-    font-size: 14px;
-}
-.boxshot{
-    height: 50px;
-}
-.download-icon{
-    height: 40px;
-}
-#LanguageSelectorButton{
-    display: none;
-}
-.FaqQuestions{
-    gap:30%;
-}
+    .video1 {
+        height: 180px;
+        width: 190px;
+        position: relative;
+        top: 100px;
+        left: 70px;
+        bottom: 3px;
+        z-index: -2;
+    }
 
-.emailInput{
-   width: 90%;
-}
- 
-.callNetflix{
-    justify-content: center;
-    align-items: center;
-}
-.FooterEndingPart{
-    justify-items: center;
-    align-items: center;
-    text-align: center;
-    font-size: 12px;
-}
-.FooterEmail .emailInput{
-    width: 90%;
- }
+    .TextContainer {
+        width: 100%;
+        height: 30%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+    }
+
+    .tvImage {
+        height: 200px;
+    }
+
+    .FirstVideoContainer {
+        width: 330px;
+        height: 400px;
+
+    }
+
+    .ChildImageVideoContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .AboveMobileTextContainer {
+        position: relative;
+        bottom: 6rem;
+    }
+
+    .AboveMobileText {
+        height: 60px;
+        width: 210px;
+        background-color: #000;
+        border: 2px solid rgba(171, 170, 170, 0.5);
+        border-radius: 12px;
+    }
+
+    #StrangerThingsDownload {
+        font-size: 12px;
+    }
+
+    #StrangerThingsText {
+        font-size: 14px;
+    }
+
+    .boxshot {
+        height: 50px;
+    }
+
+    .download-icon {
+        height: 40px;
+    }
+
+    #LanguageSelectorButton {
+        display: none;
+    }
+
+    .FaqQuestions {
+        gap: 30%;
+    }
+
+    .emailInput {
+        width: 90%;
+    }
+
+    .callNetflix {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FooterEndingPart {
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .FooterEmail .emailInput {
+        width: 90%;
+    }
+
+    .footmark {
+        position: relative;
+        width: 50%;
+        left: 5%;
+    }
 
 }
 
@@ -625,20 +760,24 @@ color: rgba(255, 255, 255, 0.6);
         border: 1px solid rgba(255, 255, 255, 0.3);
 
     }
-    .FooterEmail #Arrowright{
+
+    .FooterEmail #Arrowright {
         top: 0%;
     }
+
     .emailInput::placeholder {
         color: rgba(255, 255, 255, 0.7);
-        
+
     }
-    #Arrowright{
-     position: relative;
-     top: 0;
+
+    #Arrowright {
+        position: relative;
+        top: 0;
     }
-    .FooterEmail .emailInput{
+
+    .FooterEmail .emailInput {
         width: 90%;
-     }
+    }
 
     .email-signup .submit-btn {
         background-color: red;
